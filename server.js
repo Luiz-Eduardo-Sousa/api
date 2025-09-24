@@ -1,6 +1,6 @@
 import express from 'express';
 import { PrismaClient } from "./generated/prisma/index.js";
-
+// teste
 
 const prisma = new PrismaClient();
 const app = express();
