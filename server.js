@@ -1,6 +1,5 @@
 import express from 'express';
 import { PrismaClient } from "./generated/prisma/index.js";
-import e from 'express';
 
 
 const prisma = new PrismaClient();
